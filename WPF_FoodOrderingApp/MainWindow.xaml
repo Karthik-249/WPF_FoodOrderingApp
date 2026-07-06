@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_FoodOrderingApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Food Ordering Application" Height="750" Width="1250">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="28"/>
+        </Grid.RowDefinitions>
 
+        <TextBlock Grid.Row="0" Text="Food Ordering Application"
+                   Style="{StaticResource TitleTextStyle}"/>
+        
+        <Grid Grid.Row="1" Background="{StaticResource PrimaryLightColor}">
+            <TextBlock Text="Views shall be loaded here..."
+                       HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                       TextAlignment="Center"/>
+        </Grid>
+        
+        <TextBlock Grid.Row="2" Text="** This application is a technology demonstrator for WPF MVVM desktop application development **"
+                   Style="{StaticResource StatusTextStyle}"/>
     </Grid>
 </Window>
