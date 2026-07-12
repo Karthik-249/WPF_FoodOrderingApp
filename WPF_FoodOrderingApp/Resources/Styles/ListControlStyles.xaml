@@ -27,6 +27,7 @@
 
     <Style x:Key="MenuItemsListStyle" TargetType="ListView" BasedOn="{StaticResource BaseListViewStyle}">
         <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+        <Setter Property="Background" Value="{StaticResource PrimaryLightColor}"/>
         <Setter Property="ItemsPanel">
             <Setter.Value>
                 <ItemsPanelTemplate>
