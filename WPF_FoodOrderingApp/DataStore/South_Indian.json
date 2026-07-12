@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Idly",
+		"type": "Veg",
+		"price": 45.00,
+		"rating": 4.7
+	},
+	{
+		"name": "Vada",
+		"type": "Veg",
+		"price": 55.00,
+		"rating": 4.9
+	},
+	{
+		"name": "Dosa",
+		"type": "Veg",
+		"price": 115.00,
+		"rating": 4.8
+	},
+	{
+		"name": "Poori",
+		"type": "Veg",
+		"price": 95.00,
+		"rating": 4.5
+	},
+	{
+		"name": "Pongal",
+		"type": "Veg",
+		"price": 95.00,
+		"rating": 4.3
+	}
+]

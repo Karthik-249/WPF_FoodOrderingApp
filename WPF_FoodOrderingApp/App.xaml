@@ -1,8 +1,7 @@
 ﻿<Application x:Class="WPF_FoodOrderingApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WPF_FoodOrderingApp"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:WPF_FoodOrderingApp">
     <Application.Resources>
         
         <ResourceDictionary>
@@ -10,8 +9,12 @@
                 <ResourceDictionary Source="/Resources/AppColors.xaml"/>
                 <ResourceDictionary Source="/Resources/AppFonts.xaml"/>
 
-                <ResourceDictionary Source="Resources/Styles/TextControlStyles.xaml"/>
-                
+                <ResourceDictionary Source="/Resources/Styles/TextControlStyles.xaml"/>
+                <ResourceDictionary Source="/Resources/Styles/GridSplitterStyles.xaml"/>
+                <ResourceDictionary Source="/Resources/Styles/ListControlStyles.xaml"/>
+
+                <ResourceDictionary Source="/Resources/DataTemplates.xaml"/>
+
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
          

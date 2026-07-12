@@ -4,8 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_FoodOrderingApp"
+        xmlns:models="clr-namespace:WPF_FoodOrderingApp.Models"
         mc:Ignorable="d"
-        Title="Food Ordering Application" Height="750" Width="1250">
+        Title="Food Ordering Application" Height="750" Width="1250"
+        Loaded="Window_Loaded">
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -15,11 +18,25 @@
 
         <TextBlock Grid.Row="0" Text="Food Ordering Application"
                    Style="{StaticResource TitleTextStyle}"/>
-        
+
         <Grid Grid.Row="1" Background="{StaticResource PrimaryLightColor}">
-            <TextBlock Text="Views shall be loaded here..."
-                       HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                       TextAlignment="Center"/>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" MinWidth="250" MaxWidth="500"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <ListView x:Name="MenuCategoriesListView" Grid.Column="0"
+                      ItemsSource="{Binding MenuCategories}"
+                      SelectedItem="{Binding SelectedMenuCategory, UpdateSourceTrigger=PropertyChanged}"
+                      Style="{StaticResource MenuCategoriesStyle}"/>
+
+            <GridSplitter Grid.Column="1" Style="{StaticResource VerticalGridSplitterStyle}"/>
+
+            <ListView Grid.Column="2"
+                      ItemsSource="{Binding MenuItems, UpdateSourceTrigger=PropertyChanged}"
+                      Style="{StaticResource MenuItemsListStyle}"
+                      ItemTemplate="{StaticResource MenuItemDisplayTemplate}"/>
         </Grid>
         
         <TextBlock Grid.Row="2" Text="** This application is a technology demonstrator for WPF MVVM desktop application development **"

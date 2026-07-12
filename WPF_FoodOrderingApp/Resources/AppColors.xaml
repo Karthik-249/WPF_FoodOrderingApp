@@ -1,11 +1,13 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <SolidColorBrush x:Key="PrimaryDarkColor">DarkGoldenRod</SolidColorBrush>
-    <SolidColorBrush x:Key="SecondaryDarkColor">GoldenRod</SolidColorBrush>
-    <SolidColorBrush x:Key="PrimaryLightColor">LightYellow</SolidColorBrush>
+    <SolidColorBrush x:Key="PrimaryDarkColor" Color="DarkGoldenrod"/>
+    <SolidColorBrush x:Key="SecondaryDarkColor" Color="Goldenrod"/>
+    <SolidColorBrush x:Key="PrimaryLightColor" Color="LightYellow"/>
 
-    <SolidColorBrush x:Key="PrimaryLightTextColor">Ivory</SolidColorBrush>
-    <SolidColorBrush x:Key="PrimaryDarkTextColor">DarkSlateGray</SolidColorBrush>
-    
+    <SolidColorBrush x:Key="PrimaryLightTextColor" Color="Ivory"/>
+    <SolidColorBrush x:Key="PrimaryDarkTextColor" Color="DarkSlateGray"/>
+
+    <SolidColorBrush x:Key="HeaderBackgroundColor" Color="Lime"/>
+
 </ResourceDictionary>

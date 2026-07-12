@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Tea",
+		"type": "Veg",
+		"price": 55.00,
+		"rating": 4.1
+	},
+	{
+		"name": "Coffee",
+		"type": "Veg",
+		"price": 65.00,
+		"rating": 4.2
+	},
+	{
+		"name": "Milk",
+		"type": "Veg",
+		"price": 45.00,
+		"rating": 3.9
+	}
+]

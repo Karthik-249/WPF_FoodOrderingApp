@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Veg Biriyani",
+		"type": "Veg",
+		"price": 225.00,
+		"rating": 4.3
+	},
+	{
+		"name": "Chicken Biriyani",
+		"type": "NonVeg",
+		"price": 350.00,
+		"rating": 4.5
+	},
+	{
+		"name": "Mutton Biriyani",
+		"type": "NonVeg",
+		"price": 450.00,
+		"rating": 4.1
+	},
+	{
+		"name": "Egg Biriyani",
+		"type": "Egg",
+		"price": 250.00,
+		"rating": 3.8
+	},
+	{
+		"name": "Limited Thali",
+		"type": "Veg",
+		"price": 165.00,
+		"rating": 4.3
+	},
+	{
+		"name": "Special Thali",
+		"type": "Veg",
+		"price": 275.00,
+		"rating": 4.2
+	},
+	{
+		"name": "Executive Lunch",
+		"type": "Veg",
+		"price": 190.00,
+		"rating": 3.8
+	},
+	{
+		"name": "Sambar Rice",
+		"type": "Veg",
+		"price": 95.00,
+		"rating": 3.7
+	},
+	{
+		"name": "Variety Rice",
+		"type": "Veg",
+		"price": 85.00,
+		"rating": 3.4
+	},
+	{
+		"name": "Curd Rice",
+		"type": "Veg",
+		"price": 75.00,
+		"rating": 4.2
+	}
+]

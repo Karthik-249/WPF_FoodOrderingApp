@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Roti",
+		"type": "Veg",
+		"price": 65.00,
+		"rating": 4.6
+	},
+	{
+		"name": "Naan",
+		"type": "Veg",
+		"price": 65.00,
+		"rating": 4.1
+	},
+	{
+		"name": "Aloo Paratha",
+		"type": "Veg",
+		"price": 160.00,
+		"rating": 4.9
+	},
+	{
+		"name": "Keema Paratha",
+		"type": "NonVeg",
+		"price": 325.00,
+		"rating": 4.5
+	},
+	{
+		"name": "Butter Chicken Masala",
+		"type": "NonVeg",
+		"price": 400.00,
+		"rating": 4.7
+	},
+	{
+		"name": "Mix Veg Masala",
+		"type": "Veg",
+		"price": 350.00,
+		"rating": 4.6
+	},
+	{
+		"name": "Egg Masala",
+		"type": "Veg",
+		"price": 350.00,
+		"rating": 3.9
+	},
+	{
+		"name": "Veg Pulav",
+		"type": "Veg",
+		"price": 225.00,
+		"rating": 3.3
+	}
+]
