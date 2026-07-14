@@ -9,8 +9,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\Icons\ContainsEggIcon.png" />
+    <None Remove="Resources\Icons\NonVegIcon.png" />
+    <None Remove="Resources\Icons\Ratings\DecentRatingIcon.png" />
+    <None Remove="Resources\Icons\Ratings\ExcellentRatingIcon.png" />
+    <None Remove="Resources\Icons\Ratings\GoodRatingIcon.png" />
+    <None Remove="Resources\Icons\Ratings\PoorRatingIcon.png" />
+    <None Remove="Resources\Icons\VegIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.9" />
     <PackageReference Include="System.IO.Abstractions" Version="22.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\ItemTypes\ContainsEggIcon.png" />
+    <Resource Include="Resources\Icons\ItemTypes\NonVegIcon.png" />
+    <Resource Include="Resources\Icons\ItemTypes\VegIcon.png" />
+    <Resource Include="Resources\Icons\Ratings\DecentRatingIcon.png" />
+    <Resource Include="Resources\Icons\Ratings\ExcellentRatingIcon.png" />
+    <Resource Include="Resources\Icons\Ratings\GoodRatingIcon.png" />
+    <Resource Include="Resources\Icons\Ratings\PoorRatingIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
